@@ -35,6 +35,11 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -58,6 +63,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      mermaid: {
+        theme: { light: 'base', dark: 'base' },
+        options: {
+          themeVariables: {
+            cScale0: '#f9651d',
+            cScale1: '#00d1ff',
+            cScale2: '#f9651d',
+            cScale3: '#00d1ff',
+            cScale4: '#f9651d',
+            cScale5: '#00d1ff',
+          },
+        },
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
