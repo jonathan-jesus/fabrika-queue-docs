@@ -14,22 +14,15 @@ const config = {
   tagline: 'Simplified Render Management',
   favicon: 'img/fabrika_icon.png',
 
-  // Set the production url of your site here
   url: 'https://jonathan-jesus.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/fabrika-queue-docs/',
 
-  // GitHub pages deployment config.
-  organizationName: 'jonathan-jesus', // Usually your GitHub org/user name.
-  projectName: 'fabrika-queue-docs', // Usually your repo name.
+  organizationName: 'jonathan-jesus',
+  projectName: 'fabrika-queue-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -47,12 +40,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/', // Serve the docs at the site's root
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/jonathan-jesus/fabrika-queue-docs/tree/main/', 
+          routeBasePath: '/',
         },
-        blog: false, // Disable blog for now as it's a documentation site
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -91,7 +81,7 @@ const config = {
             label: 'User Manual',
           },
           {
-            href: 'https://github.com/jonathan-jesus/fabrika-queue', // Link to main repo? Or docs repo? Main repo probably.
+            href: 'https://github.com/jonathan-jesus/fabrika-queue-docs',
             label: 'GitHub',
             position: 'right',
           },
