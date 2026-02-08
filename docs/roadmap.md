@@ -13,8 +13,9 @@ _Note: This roadmap is subject to change based on user feedback and development 
 ```mermaid
 timeline
     title Fabrika Render Queue Roadmap
-    section Beta Phase
-        2026-02-07 : Keyboard Shortcuts : Override Render Layer
+    section Beta Phase - Completed
+        2026-02-07 : Keyboard Shortcuts : Single Render Layer
+    section Beta Phase - Planned
         2026-02-15 : Override Presets : Time Estimation : Render Preview
         2026-02-25 : Multiple Queues
         2026-03-07 : Linux Build

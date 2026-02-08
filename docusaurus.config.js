@@ -67,17 +67,13 @@ const config = {
         theme: { light: 'base', dark: 'base' },
         options: {
           themeVariables: {
-            cScale0: '#f9651d',
-            cScale1: '#00d1ff',
-            cScale2: '#f9651d',
-            cScale3: '#00d1ff',
-            cScale4: '#f9651d',
-            cScale5: '#00d1ff',
+            cScale0: '#2ecc71',
+            cScale1: '#f9651d',
+            cScale2: '#00d1ff',
           },
         },
       },
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/fabrika-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
