@@ -7,7 +7,7 @@ sidebar_position: 2
 Get the latest version of Fabrika Queue to manage your render jobs efficiently.
 
 :::tip Latest version
-**0.1.3** [Download / Purchase Fabrika Queue](https://1480052920180.gumroad.com/l/fabqueue)
+**0.1.4** [Download / Purchase Fabrika Queue](https://1480052920180.gumroad.com/l/fabqueue)
 :::
 
 
