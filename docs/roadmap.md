@@ -17,9 +17,9 @@ timeline
         2026-02-07 v0.1.2 : Keyboard Shortcuts : Single Render Layer
         2026-02-15 v0.1.3 : Override Presets : Time Estimation : Override Multiplier (formerly Preview Settingss)
         2026-02-25 v0.1.5 : Multiple Queues
-        2026-03-07 : Linux Build
+        2026-03-07 v0.1.6 : Linux Build
+        2026-03-22 v0.1.7 : Automated Actions
     section Beta Phase - Planned
-        2026-03-22 : Actions : Custom Script Execution
         2026-03-31 : Remote Services
     section 1.0 Release
         2026-04-15 : v1.0 Release : Notifications
